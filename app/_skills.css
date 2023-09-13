@@ -1,0 +1,23 @@
+.skills {
+    margin-top: 50px;
+}
+
+.skills h3 {
+    font-family: var(--accent-font);
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.skills_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.skills_icons img {
+    height: 40px;
+    display: inline-block;
+}

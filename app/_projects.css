@@ -1,5 +1,45 @@
 .projects {
     width: 100%;
+}
+
+.project-container {
+    width: 100%;
+    min-height: 150px;
     display: flex;
-    flex-direction: row;
+    justify-items: flex-start; 
+    align-items: stretch;
+    margin: 1em 0 1em 0;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+.project-image {
+    flex: 0 0 30%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.project-info {
+    margin-left: 1em;
+    padding: 0.5em;
+    flex: 0 1 auto;
+}
+
+.project-name {
+    color: var(--secondary-color);
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 0.25em;
+}
+
+.project-links {
+    margin-top: 0.5em;
+}
+
+.project-links a {
+    display: block;
+    color: var(--secondary-color);
+    font-family: var(--accent-font);
 }

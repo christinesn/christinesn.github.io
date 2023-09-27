@@ -7,6 +7,7 @@
     --accent-font: 'Signika Negative', sans-serif;
     --primary-color: rgb(43, 43, 43);
     --accent-color: rgb(0, 124, 207);
+    --secondary-color: rgb(95, 105, 167);
 }
 
 body {
@@ -20,4 +21,11 @@ body {
     font-family: var(--primary-font);
     font-weight: regular;
     color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--accent-font);
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.2em;
 }

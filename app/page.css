@@ -1,6 +1,6 @@
 .container {
-    height: 100vh;
-    padding: 50px 25px 50px 10px;
+    min-height: 100vh;
+    padding: 50px 25px 175px 10px;
     margin: auto;
     transition: width 1s ease-in-out;
 }

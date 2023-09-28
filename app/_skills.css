@@ -2,21 +2,29 @@
     margin-top: 50px;
 }
 
-.skills_icons {
+.skills-icons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1em;
     margin: auto;
     margin-top: 25px;
 }
 
-.skills_icons img {
-    height: 40px;
-    display: inline-block;
+.icon-entry {
+    flex: 0 1 auto;
+    width: 50%;
 }
 
-.second-row {
-    width: 35%;
-    margin: auto;
-    margin-top: 1.75em;
+.icon-description {
+    display: inline-block;
+    padding: 0 2em 0 0.5em;
+    font-family: var(--accent-font);
+    font-size: 1.25em;
+}
+
+.skills-icons img {
+    height: 40px;
+    display: inline-block;
 }

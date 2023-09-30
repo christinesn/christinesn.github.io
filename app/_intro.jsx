@@ -4,7 +4,7 @@ export default function Intro () {
     return (
         <div className="intro">
             <div className="hello">
-                Hi there. I'm Charlie Whiskey.
+                Hi there. I'm Christine Seidensticker.
             </div>
             <div className="summary">
                 I'm a junior front-end web developer, based in Washington, DC.

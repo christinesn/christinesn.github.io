@@ -18,6 +18,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    transition: ease-out 0.25s opacity;
+}
+
+.project-image:hover, .project-image:focus, .project-image:focus {
+    opacity: 0.5;
 }
 
 .project-info {

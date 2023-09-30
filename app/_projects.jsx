@@ -4,6 +4,7 @@ import './_projects.css';
 export default function Projects () {
     return (
         <div className="projects">
+            <a id="projects" className="anchor">Projects</a>
             <h3>Projects</h3>
             <hr />
             {projectList.map(project => {
@@ -15,7 +16,7 @@ export default function Projects () {
                             }} />
                         <div className="project-info">
                             <div className="project-name">
-                                {project.name}
+                                <a href={project.link}>{project.name}</a>
                             </div>
                             <div className="project-description">
                                 {project.description}

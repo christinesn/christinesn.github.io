@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import './_nav.css';
 
 export default function Nav () {
     return (
@@ -8,15 +9,16 @@ export default function Nav () {
             direction="row"
             justifyContent="center"
             alignItems="center"
+            className="nav"
         >
             <Grid item>
-                projects
+                <a href="#projects">projects</a>
             </Grid>
             <Grid item>
-                about
+                <a href="#skills">skills</a>
             </Grid>
             <Grid item>
-                contact
+                <a href="#contact">contact</a>
             </Grid>
         </Grid>
     )

@@ -36,7 +36,7 @@ const projects = [
         description: "This portfolio was made with NextJS.",
         thumb: '/portfolio_thumb.png',
         image: '/portfolio.png',
-        github: "https://github.com/christinesn/portfolio/"
+        github: "https://github.com/christinesn/christinesn.github.io"
     }
 ];
 

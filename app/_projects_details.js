@@ -1,11 +1,11 @@
 const projects = [
     {
-        name: "Minimalist Writing Space",
-        description: "A minimalist text editor created with React. Includes a dark mode, rich text, and the ability to switch between multiple documents.",
-        thumb: '/text_editor_thumb.png',
-        image: "/text_editor.png",
-        link: "./text-editor/",
-        github: "https://github.com/christinesn/text-editor/"
+        name: "Flickr Search",
+        description: "A Flickr photo search app that consumes Flickr's RESTful API. Made with React, NextJS, and TailwindCSS.",
+        thumb: '/flickr_search_thumb.png',
+        image: '/flickr_search.png',
+        link: "./flickr-search/",
+        github: "https://github.com/christinesn/flickr-search/"
     },
     {
         name: "Shopping Cart",
@@ -16,12 +16,12 @@ const projects = [
         github: "https://github.com/christinesn/shopping-cart/"
     },
     {
-        name: "Flickr Search",
-        description: "A simple Flickr search tool made with React and MaterialUI. Consumes Flickr's RESTful API.",
-        thumb: '/flickr_search_thumb.png',
-        image: '/flickr_search.png',
-        link: "./flickr-search/",
-        github: "https://github.com/christinesn/flickr-search/"
+        name: "Minimalist Writing Space",
+        description: "A minimalist text editor created with React. Includes a dark mode, rich text, and the ability to switch between multiple documents.",
+        thumb: '/text_editor_thumb.png',
+        image: "/text_editor.png",
+        link: "./text-editor/",
+        github: "https://github.com/christinesn/text-editor/"
     },
     {
         name: "Timer and Stopwatch",
@@ -33,7 +33,7 @@ const projects = [
     },
     {
         name: "Portfolio",
-        description: "This portfolio was made with NextJS.",
+        description: "This portfolio was made with React and NextJS.",
         thumb: '/portfolio_thumb.png',
         image: '/portfolio.png',
         github: "https://github.com/christinesn/christinesn.github.io"

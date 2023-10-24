@@ -33,3 +33,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+flickr_search_old.png
+flickr_search_thumb_old.png

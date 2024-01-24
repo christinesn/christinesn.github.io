@@ -1,0 +1,66 @@
+#skills section {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+    padding-bottom: 1.5em;
+    width: 95%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+h3 {
+    width: 100%;
+    flex: 0 0 auto;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-family: var(--accent-font);
+}
+
+.icons {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    margin-left: 2em;
+}
+
+.skill {
+    flex: 0 1 auto;
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.skill-name {
+    padding: 0 2em 0 1em;
+    font-family: var(--accent-font);
+    opacity: 0.95;
+}
+
+.skill img {
+    height: 40px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 640px) {
+    .skill {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #skills section {
+        flex-wrap: nowrap;
+        padding-bottom: 2em;
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-top: 1.5em;
+    }
+
+    h3 {
+        width: 25%;
+    }
+}

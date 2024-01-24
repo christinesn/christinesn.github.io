@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Signika+Negative:wght@400;700&display=swap');
+
+:root {
+    --background-color: white;
+    --primary-font: 'Merriweather', serif;
+    --accent-font: 'Signika Negative', sans-serif;
+    --primary-color: rgb(43, 43, 43);
+    --accent-color: rgb(0, 124, 207);
+    --secondary-color: rgb(95, 105, 167);
+    --secondary-hover-color: rgb(61, 68, 117);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color);
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    margin: 0;
+}
+
+h2 {
+    font-family: var(--accent-font);
+    color: var(--accent-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0;
+    padding-top: 2em;
+}
+
+hr {
+    border-style: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: rgba(0, 0, 0, 0.075);
+}
+
+.anchor {
+    visibility: hidden;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: var(--secondary-hover-color);
+    text-decoration: underline;
+}
+
+.container {
+    min-height: 100vh;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    transition: width 0.5s ease-in-out;
+}
+
+@media only screen and (min-width: 640px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 70%; 
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .container {
+        width: 50%;
+    }
+}

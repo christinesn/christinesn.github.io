@@ -37,10 +37,6 @@ hr {
     border-color: rgba(0, 0, 0, 0.075);
 }
 
-.anchor {
-    visibility: hidden;
-}
-
 a {
     color: var(--secondary-color);
     text-decoration: none;

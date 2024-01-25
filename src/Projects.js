@@ -14,11 +14,11 @@ function Projects () {
                         }}
                     />
                     <div className="details">
-                        <h4>
-                            <a href={project.link} title="Go to live demo" className="name">
+                        <h3>
+                            <a href={project.link} title="Go to live demo">
                                 {project.name}
                             </a>
-                        </h4>
+                        </h3>
                         <p className="description">
                             {project.description}
                         </p>

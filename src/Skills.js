@@ -8,7 +8,7 @@ function Skills () {
             <hr />
             {skillsList.map(type => (
                 <section key={type.section}>
-                    <h3>{type.section}</h3>
+                    <h4>{type.section}</h4>
                     <div className="icons">
                         {type.skills.map(skill => (
                             <div className="skill" key={skill.name}>

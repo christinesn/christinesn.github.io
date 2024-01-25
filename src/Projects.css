@@ -33,15 +33,12 @@
     flex: 0 1 auto;
 }
 
-h4 {
+h3 {
     margin: 0;
-}
-
-.name {
+    font-size: 1.1em;
     color: var(--secondary-color);
     font-family: var(--accent-font);
     font-weight: bold;
-    font-size: 1.1em;
     margin-bottom: 0.25em;
 }
 
